@@ -26,7 +26,7 @@ Used JavaScript and jQuery to handle form data.
 
 ## Support and contact details
 
-Contact Collin with (insert email address here) and Allan with allenbosire@gmail.com.
+Contact Collin with owino.collin@gmail.com and Allan with allenbosire@gmail.com.
 
 ### License
 
