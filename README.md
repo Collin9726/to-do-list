@@ -30,5 +30,5 @@ Contact Collin with (insert email address here) and Allan with allenbosire@gmail
 
 ### License
 
-This product is [MIT Licensed]()
+This product is [MIT Licensed](https://github.com/iAllan/to-do-list/blob/master/License.txt)
 Copyright (c) {2020} **{Collin Owino and Allan Bosire}**
