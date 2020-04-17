@@ -1,0 +1,18 @@
+.showToDo {
+    display: none;
+}
+  
+.listItem {
+    cursor: pointer;
+    color: #0088cc;
+}
+  
+.listItem:hover {
+    text-decoration: underline;
+} 
+
+.remove{
+    color: red;
+    margin-top: 1em;
+    font-size: larger;
+}
