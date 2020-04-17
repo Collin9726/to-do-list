@@ -41,12 +41,13 @@
                     type="text"
                     class="form-control"
                     id="name"
-                    placeholder="Enter task title..."
+                    placeholder="Enter unique task title..."
+                    required
                   />
                 </div>
                 <div class="form-group">
                   <label for="date">Due Date</label>
-                  <input type="date" class="form-control" id="date" />
+                  <input type="date" class="form-control" id="date" required/>
                 </div>
                 <div class="form-group">
                   <label for="description">Description</label>
@@ -56,31 +57,25 @@
                     rows="4"
                     class="form-control"
                     placeholder="Additional information here..."
+                    required
                   ></textarea>
                 </div>
                 <br />
                 <button class="btn btn-primary" type="submit">Add</button>
-                <br />
+                <br /><br><br>
                 <div>
+                  <h4>Your Tasks here</h4>
                   <ul id="list"></ul>
                 </div>
               </form>
             </div>
-            <div class="col-md-6 showToDo">
+            <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
                   <h2><strong>Tasks</strong></h2>
                 </div>
-                <div class="card-body">
-                  <h2></h2>
-                  <p>
-                    <strong>Due Date: </strong><span class="dueDate"></span>
-                  </p>
-                  <p>
-                    <strong>Description: </strong
-                    ><span class="description"></span>
-                  </p>
-                  <p class="remove"></p>
+                <div class="card-body showToDo">
+                  <!--clicked tasks appear here-->
                 </div>
               </div>
             </div>
@@ -88,13 +83,16 @@
         </div>
       </div>
       <br />
-      <div class="card">
+      <div class="card bottom-margin">
         <div class="card-header">
           <h3>Completed Tasks</h3>
         </div>
-        <div class="card-body" class="showCompleted">
-          <ul id="done-list"></ul>
+        <div class="card-body completed">
+          <!--completed tasks appear here-->
         </div>
+        <div class="col-1 padding">
+          <button class="clearTasks btn btn-danger">Clear</button>
+        </div>        
       </div>
     </div>
   </body>
