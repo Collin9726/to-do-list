@@ -1,22 +1,23 @@
-.showToDo {
-  display: none;
-}
-
 .listItem {
-  cursor: pointer;
-  color: #0088cc;
+  cursor: pointer;  
 }
 
 .listItem:hover {
   text-decoration: underline;
+} 
+
+.clearTasks{
+  display: none;
 }
 
-.remove {
-  color: red;
-  margin-top: 1em;
-  font-size: larger;
-}
-.showCompleted {
-  display: none;
+.completed {  
   text-decoration: line-through;
+}
+
+.bottom-margin{
+  margin-bottom: 5em;
+}
+
+.padding{
+  margin-bottom: 2em;
 }
